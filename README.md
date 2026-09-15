@@ -194,4 +194,5 @@ Extend the Number Guessing Game by adding a second module that manages the playe
 * Create a function in `score.py` that accepts the **current score** and returns the new score after an incorrect guess.
 * Create a second function in `score.py` that accepts the **final score** and returns a rating: **80–100 = `"Excellent"`, 50–79 = `"Good"`, and 0–49 = `"Keep Practicing"`**.
 * Import both functions into `main.py`. When the player correctly guesses the number, display their **final score and rating**.
+* Program appropriately uses `__name__ == "__main__"` to prevent data from contaminating programs in other files.
 
